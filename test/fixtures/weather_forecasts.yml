@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  percip_probability: 1.5
+  percip_range: MyString
+  temp_lo: 1
+  temp_hi: 1
+  avg_temp: 1
+  summary: MyString
+
+two:
+  percip_probability: 1.5
+  percip_range: MyString
+  temp_lo: 1
+  temp_hi: 1
+  avg_temp: 1
+  summary: MyString

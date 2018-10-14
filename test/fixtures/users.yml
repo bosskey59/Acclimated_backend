@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  email: MyString
+  dob: MyString
+  gender: MyString
+  weight: 1
+  password_digest: MyString
+  temp: MyString
+  wind: MyString
+  notifications: false
+  time: MyString
+  weather_pref: MyString
+  desired_temp: MyString
+
+two:
+  name: MyString
+  email: MyString
+  dob: MyString
+  gender: MyString
+  weight: 1
+  password_digest: MyString
+  temp: MyString
+  wind: MyString
+  notifications: false
+  time: MyString
+  weather_pref: MyString
+  desired_temp: MyString

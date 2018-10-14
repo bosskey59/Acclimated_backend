@@ -1,0 +1,2 @@
+class WeatherForecastsController < ApplicationController
+end
