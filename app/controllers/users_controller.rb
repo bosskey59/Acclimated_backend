@@ -1,8 +1,10 @@
 class UsersController < ApplicationController
-  skip_before_action :authorized, only: [:create]
+  skip_before_action :authorized, only: [:create, :index]
 
   def account
-    current_user.getForecast()
+    if Time.at(Time.now - current_user.weather_forecasts.last.created_at).strftime("%M").to_i > 480
+      current_user.getForecast()
+    end
     render json: current_user, status: :accepted
   end
 
@@ -15,6 +17,11 @@ class UsersController < ApplicationController
       message = @user.errors.full_messages.join(', ')
       render json: { error: 'failed to create user', message: message }, status: :not_acceptable
     end
+  end
+
+  def index
+    users = User.all
+    render json: users
   end
 
   private

@@ -1354,3 +1354,1628 @@ Processing by UsersController#account as */*
 Completed 202 Accepted in 101004ms (Views: 68.8ms | ActiveRecord: 184.0ms)
 
 
+Started GET "/account" for 127.0.0.1 at 2018-10-14 14:56:33 -0500
+  [1m[35m (5.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/AlejandroAguilar/.rvm/gems/ruby-2.3.3/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#account as */*
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+LoadError (cannot load such file -- rest-client):
+  
+app/models/user.rb:1:in `<main>'
+app/controllers/application_controller.rb:31:in `current_user'
+app/controllers/application_controller.rb:36:in `logged_in?'
+app/controllers/application_controller.rb:40:in `authorized'
+Started GET "/account" for 127.0.0.1 at 2018-10-14 14:57:01 -0500
+Processing by UsersController#account as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.77ms)
+Filter chain halted as :authorized rendered or redirected
+Completed 401 Unauthorized in 39ms (Views: 36.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-10-14 14:57:11 -0500
+Processing by AuthController#create as */*
+  Parameters: {"email"=>"not_nil", "password"=>"[FILTERED]", "auth"=>{"email"=>"not_nil", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+LoadError (cannot load such file -- rest-client):
+  
+app/models/user.rb:1:in `<main>'
+app/controllers/auth_controller.rb:5:in `create'
+Started GET "/account" for 127.0.0.1 at 2018-10-14 14:57:11 -0500
+Processing by UsersController#account as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.29ms)
+Filter chain halted as :authorized rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-14 14:57:11 -0500
+Processing by UsersController#account as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.13ms)
+Filter chain halted as :authorized rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-10-14 14:58:24 -0500
+Processing by AuthController#create as */*
+  Parameters: {"email"=>"not_nil", "password"=>"[FILTERED]", "auth"=>{"email"=>"not_nil", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+LoadError (cannot load such file -- rest-client):
+  
+app/models/user.rb:2:in `<class:User>'
+app/models/user.rb:1:in `<main>'
+app/controllers/auth_controller.rb:5:in `create'
+Started GET "/account" for 127.0.0.1 at 2018-10-14 14:58:34 -0500
+Processing by UsersController#account as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.99ms)
+Filter chain halted as :authorized rendered or redirected
+Completed 401 Unauthorized in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-14 14:58:34 -0500
+Processing by UsersController#account as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.17ms)
+Filter chain halted as :authorized rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-10-14 14:59:14 -0500
+Processing by AuthController#create as */*
+  Parameters: {"email"=>"not_nil", "password"=>"[FILTERED]", "auth"=>{"email"=>"not_nil", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+LoadError (cannot load such file -- rest-client):
+  
+app/models/user.rb:2:in `<class:User>'
+app/models/user.rb:1:in `<main>'
+app/controllers/auth_controller.rb:5:in `create'
+Started GET "/account" for 127.0.0.1 at 2018-10-14 14:59:14 -0500
+Processing by UsersController#account as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.27ms)
+Filter chain halted as :authorized rendered or redirected
+Completed 401 Unauthorized in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-14 14:59:15 -0500
+Processing by UsersController#account as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.16ms)
+Filter chain halted as :authorized rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-14 15:00:03 -0500
+Processing by UsersController#account as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.25ms)
+Filter chain halted as :authorized rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-10-14 15:00:11 -0500
+Processing by AuthController#create as */*
+  Parameters: {"email"=>"not_nil", "password"=>"[FILTERED]", "auth"=>{"email"=>"not_nil", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+
+
+  
+LoadError (cannot load such file -- rest-client):
+  
+app/models/user.rb:2:in `<class:User>'
+app/models/user.rb:1:in `<main>'
+app/controllers/auth_controller.rb:5:in `create'
+Started GET "/account" for 127.0.0.1 at 2018-10-14 15:00:11 -0500
+Processing by UsersController#account as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.26ms)
+Filter chain halted as :authorized rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-14 15:00:11 -0500
+Processing by UsersController#account as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Filter chain halted as :authorized rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-14 19:57:20 -0500
+Processing by UsersController#account as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.88ms)
+Filter chain halted as :authorized rendered or redirected
+Completed 401 Unauthorized in 9ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-14 19:58:25 -0500
+Processing by UsersController#account as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.63ms)
+Filter chain halted as :authorized rendered or redirected
+Completed 401 Unauthorized in 6ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-10-14 19:58:29 -0500
+Processing by AuthController#create as */*
+  Parameters: {"email"=>"1", "password"=>"[FILTERED]", "auth"=>{"email"=>"1", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 65ms (ActiveRecord: 0.0ms)
+
+
+  
+LoadError (cannot load such file -- rest-client):
+  
+app/models/user.rb:2:in `<class:User>'
+app/models/user.rb:1:in `<main>'
+app/controllers/auth_controller.rb:5:in `create'
+Started GET "/account" for 127.0.0.1 at 2018-10-14 19:58:29 -0500
+Processing by UsersController#account as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.13ms)
+Filter chain halted as :authorized rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-14 19:58:29 -0500
+Processing by UsersController#account as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.29ms)
+Filter chain halted as :authorized rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-14 20:02:43 -0500
+Processing by UsersController#account as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.47ms)
+Filter chain halted as :authorized rendered or redirected
+Completed 401 Unauthorized in 42ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-10-14 20:02:48 -0500
+Processing by AuthController#create as */*
+  Parameters: {"email"=>"1", "password"=>"[FILTERED]", "auth"=>{"email"=>"1", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+LoadError (cannot load such file -- rest-client):
+  
+app/models/user.rb:1:in `<main>'
+app/controllers/auth_controller.rb:5:in `create'
+Started GET "/account" for 127.0.0.1 at 2018-10-14 20:02:48 -0500
+Processing by UsersController#account as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.32ms)
+Filter chain halted as :authorized rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-14 20:02:48 -0500
+Processing by UsersController#account as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Filter chain halted as :authorized rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-10-14 20:04:12 -0500
+Processing by AuthController#create as */*
+  Parameters: {"email"=>"1", "password"=>"[FILTERED]", "auth"=>{"email"=>"1", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+LoadError (cannot load such file -- rest-client):
+  
+app/models/user.rb:1:in `<main>'
+app/controllers/auth_controller.rb:5:in `create'
+Started GET "/account" for 127.0.0.1 at 2018-10-14 20:04:12 -0500
+Processing by UsersController#account as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.31ms)
+Filter chain halted as :authorized rendered or redirected
+Completed 401 Unauthorized in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-14 20:04:12 -0500
+Processing by UsersController#account as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Filter chain halted as :authorized rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-10-14 20:05:06 -0500
+Processing by AuthController#create as */*
+  Parameters: {"email"=>"1", "password"=>"[FILTERED]", "auth"=>{"email"=>"1", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+LoadError (cannot load such file -- rest-client):
+  
+app/models/user.rb:1:in `<main>'
+app/controllers/auth_controller.rb:5:in `create'
+Started GET "/account" for 127.0.0.1 at 2018-10-14 20:05:06 -0500
+Processing by UsersController#account as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.21ms)
+Filter chain halted as :authorized rendered or redirected
+Completed 401 Unauthorized in 43ms (Views: 41.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-14 20:05:06 -0500
+Processing by UsersController#account as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.15ms)
+Filter chain halted as :authorized rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-10-14 20:06:05 -0500
+Processing by AuthController#create as */*
+  Parameters: {"email"=>"not_nil", "password"=>"[FILTERED]", "auth"=>{"email"=>"not_nil", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+LoadError (cannot load such file -- rest-client):
+  
+app/models/user.rb:1:in `<main>'
+app/controllers/auth_controller.rb:5:in `create'
+Started GET "/account" for 127.0.0.1 at 2018-10-14 20:06:05 -0500
+Processing by UsersController#account as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.17ms)
+Filter chain halted as :authorized rendered or redirected
+Completed 401 Unauthorized in 48ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-14 20:06:05 -0500
+Processing by UsersController#account as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.16ms)
+Filter chain halted as :authorized rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-10-14 20:07:32 -0500
+  [1m[35m (3.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/AlejandroAguilar/.rvm/gems/ruby-2.3.3/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by AuthController#create as */*
+  Parameters: {"email"=>"1", "password"=>"[FILTERED]", "auth"=>{"email"=>"1", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "1"], ["LIMIT", 1]]
+  ↳ app/controllers/auth_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.21ms)
+Completed 401 Unauthorized in 53ms (Views: 8.6ms | ActiveRecord: 28.8ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-10-14 20:07:54 -0500
+Processing by AuthController#create as */*
+  Parameters: {"email"=>"1", "password"=>"[FILTERED]", "auth"=>{"email"=>"1", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "1"], ["LIMIT", 1]]
+  ↳ app/controllers/auth_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.12ms)
+Completed 401 Unauthorized in 4ms (Views: 0.8ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-10-14 20:08:19 -0500
+Processing by AuthController#create as */*
+  Parameters: {"email"=>"not_nil", "password"=>"[FILTERED]", "auth"=>{"email"=>"not_nil", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (18.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "not_nil"], ["LIMIT", 1]]
+  ↳ app/controllers/auth_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (15.21ms)
+Completed 202 Accepted in 243ms (Views: 18.4ms | ActiveRecord: 49.5ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-14 20:09:17 -0500
+Processing by UsersController#account as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.31ms)
+Filter chain halted as :authorized rendered or redirected
+Completed 401 Unauthorized in 5ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-14 21:39:46 -0500
+Processing by UsersController#account as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.07ms)
+Filter chain halted as :authorized rendered or redirected
+Completed 401 Unauthorized in 40ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-14 21:39:47 -0500
+Processing by UsersController#account as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.16ms)
+Filter chain halted as :authorized rendered or redirected
+Completed 401 Unauthorized in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-10-14 21:39:53 -0500
+Processing by AuthController#create as */*
+  Parameters: {"email"=>"1", "password"=>"[FILTERED]", "auth"=>{"email"=>"1", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+
+  
+LoadError (cannot load such file -- rest-client):
+  
+app/models/user.rb:1:in `<main>'
+app/controllers/auth_controller.rb:5:in `create'
+Started GET "/account" for 127.0.0.1 at 2018-10-14 21:39:53 -0500
+Processing by UsersController#account as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.18ms)
+Filter chain halted as :authorized rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-14 21:39:53 -0500
+Processing by UsersController#account as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.17ms)
+Filter chain halted as :authorized rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-10-14 21:40:44 -0500
+Processing by AuthController#create as */*
+  Parameters: {"email"=>"1", "password"=>"[FILTERED]", "auth"=>{"email"=>"1", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (19.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "1"], ["LIMIT", 1]]
+  ↳ app/controllers/auth_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.15ms)
+Completed 401 Unauthorized in 123ms (Views: 9.1ms | ActiveRecord: 95.6ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-14 22:06:38 -0500
+  [1m[35m (25.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/AlejandroAguilar/.rvm/gems/ruby-2.3.3/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#account as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.02ms)
+Filter chain halted as :authorized rendered or redirected
+Completed 401 Unauthorized in 14ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-10-14 22:06:43 -0500
+Processing by AuthController#create as */*
+  Parameters: {"email"=>"1", "password"=>"[FILTERED]", "auth"=>{"email"=>"1", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (7.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "1"], ["LIMIT", 1]]
+  ↳ app/controllers/auth_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.23ms)
+Completed 401 Unauthorized in 68ms (Views: 1.1ms | ActiveRecord: 30.3ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-10-14 22:06:54 -0500
+Processing by AuthController#create as */*
+  Parameters: {"email"=>"not_nil", "password"=>"[FILTERED]", "auth"=>{"email"=>"not_nil", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (12.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "not_nil"], ["LIMIT", 1]]
+  ↳ app/controllers/auth_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (10.69ms)
+Completed 202 Accepted in 173ms (Views: 11.7ms | ActiveRecord: 33.6ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-14 22:07:22 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (13.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (0.78ms)
+Completed 202 Accepted in 16643ms (Views: 6.4ms | ActiveRecord: 14.0ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-14 22:08:19 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+Started GET "/" for 127.0.0.1 at 2018-10-14 22:28:04 -0500
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/AlejandroAguilar/.rvm/gems/ruby-2.3.3/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/AlejandroAguilar/.rvm/gems/ruby-2.3.3/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/AlejandroAguilar/.rvm/gems/ruby-2.3.3/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb (8.5ms)
+Completed 200 OK in 32ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-10-14 22:28:09 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/users" for 127.0.0.1 at 2018-10-14 22:32:47 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/users" for 127.0.0.1 at 2018-10-14 22:33:05 -0500
+Processing by UsersController#index as HTML
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.48ms)
+Filter chain halted as :authorized rendered or redirected
+Completed 401 Unauthorized in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-10-14 22:34:04 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (43.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:22
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (17.02ms)
+Completed 500 Internal Server Error in 218ms (ActiveRecord: 111.1ms)
+
+
+  
+NoMethodError (undefined method `weathe_forecast' for #<User:0x007f8aaf9133e0>):
+  
+app/controllers/users_controller.rb:22:in `index'
+Started GET "/users" for 127.0.0.1 at 2018-10-14 22:34:28 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:22
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (21.02ms)
+Completed 500 Internal Server Error in 67ms (ActiveRecord: 9.9ms)
+
+
+  
+NoMethodError (undefined method `weather_forecast' for #<User:0x007f8aafc95090>):
+  
+app/controllers/users_controller.rb:22:in `index'
+Started GET "/users" for 127.0.0.1 at 2018-10-14 22:35:19 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:22
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (35.1ms)
+Completed 500 Internal Server Error in 190ms (ActiveRecord: 36.3ms)
+
+
+  
+NoMethodError (undefined method `weather_forecast' for #<User:0x007f8aabeba298>
+Did you mean?  weather_forecasts
+               weather_forecasts=
+               weather_forecast_ids):
+  
+app/controllers/users_controller.rb:22:in `index'
+Started GET "/users" for 127.0.0.1 at 2018-10-14 22:35:39 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:22
+[active_model_serializers]   [1m[36mWeatherForecast Load (30.2ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 1]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:22
+[active_model_serializers]   [1m[36mWeatherForecast Load (0.4ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:22
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (101.18ms)
+Completed 200 OK in 144ms (Views: 86.5ms | ActiveRecord: 51.6ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-14 23:33:19 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (23.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (1.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (14.8ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:6
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (215.73ms)
+Completed 202 Accepted in 1472076ms (Views: 212.3ms | ActiveRecord: 193.2ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-14 23:59:31 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (68.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (2.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (0.5ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:6
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (78.61ms)
+Completed 202 Accepted in 76171ms (Views: 219.7ms | ActiveRecord: 270.6ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 00:00:53 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (6.5ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:6
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (96.1ms)
+Completed 202 Accepted in 134335ms (Views: 175.2ms | ActiveRecord: 73.6ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 00:18:51 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (4.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (1.3ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:6
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (66.86ms)
+Completed 202 Accepted in 223898ms (Views: 154.2ms | ActiveRecord: 61.7ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 00:27:15 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (7.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (0.8ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:6
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (107.03ms)
+Completed 202 Accepted in 1189902ms (Views: 414.4ms | ActiveRecord: 368.0ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 00:47:15 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (11.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+Completed 500 Internal Server Error in 719ms (ActiveRecord: 34.3ms)
+
+
+  
+NameError (undefined local variable or method `percip_avg' for #<User:0x007f8aaf910fc8>):
+  
+app/models/user.rb:27:in `getForecast'
+app/controllers/users_controller.rb:5:in `account'
+Started GET "/account" for 127.0.0.1 at 2018-10-15 00:48:02 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+Completed 500 Internal Server Error in 829ms (ActiveRecord: 152.4ms)
+
+
+  
+NameError (undefined local variable or method `percip_avg' for #<User:0x007f8aac9f27a0>):
+  
+app/models/user.rb:27:in `getForecast'
+app/controllers/users_controller.rb:5:in `account'
+Started GET "/account" for 127.0.0.1 at 2018-10-15 00:49:18 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+Completed 500 Internal Server Error in 558ms (ActiveRecord: 19.2ms)
+
+
+  
+NameError (undefined local variable or method `avg_temp' for #<User:0x007f8aacce1768>):
+  
+app/models/user.rb:27:in `getForecast'
+app/controllers/users_controller.rb:5:in `account'
+Started GET "/account" for 127.0.0.1 at 2018-10-15 00:49:53 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (4.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (1.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:27
+  [1m[36mWeatherForecast Create (113.7ms)[0m  [1m[32mINSERT INTO "weather_forecasts" ("percip_probability", "temp_lo", "temp_hi", "avg_temp", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["percip_probability", 0.0], ["temp_lo", 59], ["temp_hi", 64], ["avg_temp", 62], ["user_id", 2], ["created_at", "2018-10-15 05:49:54.078540"], ["updated_at", "2018-10-15 05:49:54.078540"]]
+  ↳ app/models/user.rb:27
+  [1m[35m (4.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:27
+  [1m[36mUser Load (2.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (2.2ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:6
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (19.93ms)
+Completed 202 Accepted in 1100ms (Views: 26.6ms | ActiveRecord: 287.3ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 11:06:36 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (79.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+Started GET "/users" for 127.0.0.1 at 2018-10-15 11:25:21 -0500
+  [1m[35m (4.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/AlejandroAguilar/.rvm/gems/ruby-2.3.3/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (6.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:22
+[active_model_serializers]   [1m[36mWeatherForecast Load (21.2ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 1]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:22
+[active_model_serializers]   [1m[36mWeatherForecast Load (0.6ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:22
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (77.13ms)
+Completed 200 OK in 180ms (Views: 125.6ms | ActiveRecord: 42.6ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-10-15 11:25:22 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/account" for 127.0.0.1 at 2018-10-15 11:25:35 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+Started GET "/account" for 127.0.0.1 at 2018-10-15 14:02:57 -0500
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/AlejandroAguilar/.rvm/gems/ruby-2.3.3/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#account as */*
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+Completed 500 Internal Server Error in 436ms (ActiveRecord: 29.4ms)
+
+
+  
+NameError (undefined local variable or method `percentange' for #<User:0x007fc7a79b6678>):
+  
+app/models/user.rb:25:in `block in getForecast'
+app/models/user.rb:17:in `times'
+app/models/user.rb:17:in `getForecast'
+app/controllers/users_controller.rb:5:in `account'
+Started GET "/account" for 127.0.0.1 at 2018-10-15 14:03:51 -0500
+Started GET "/account" for 127.0.0.1 at 2018-10-15 14:04:01 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (2.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:35
+  [1m[36mWeatherForecast Create (61.5ms)[0m  [1m[32mINSERT INTO "weather_forecasts" ("percip_probability", "percip_range", "temp_lo", "temp_hi", "avg_temp", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["percip_probability", 0.0], ["percip_range", "37 chance of rain at 16:00 pm41 chance of rain at 17:00 pm45 chance of rain at 18:00 pm49 chance of rain at 19:00 pm47 chance of rain at 20:00 pm44 chance of rain at 21:00 pm"], ["temp_lo", 60], ["temp_hi", 63], ["avg_temp", 61], ["user_id", 2], ["created_at", "2018-10-15 19:04:02.769219"], ["updated_at", "2018-10-15 19:04:02.769219"]]
+  ↳ app/models/user.rb:35
+  [1m[35m (7.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:35
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (0.6ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:6
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (21.01ms)
+Completed 202 Accepted in 1161ms (Views: 44.8ms | ActiveRecord: 158.7ms)
+
+
+Processing by UsersController#account as */*
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:35
+  [1m[36mWeatherForecast Create (0.4ms)[0m  [1m[32mINSERT INTO "weather_forecasts" ("percip_probability", "percip_range", "temp_lo", "temp_hi", "avg_temp", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["percip_probability", 0.0], ["percip_range", "37 chance of rain at 16:00 pm41 chance of rain at 17:00 pm45 chance of rain at 18:00 pm49 chance of rain at 19:00 pm47 chance of rain at 20:00 pm44 chance of rain at 21:00 pm"], ["temp_lo", 60], ["temp_hi", 63], ["avg_temp", 61], ["user_id", 2], ["created_at", "2018-10-15 19:04:03.480112"], ["updated_at", "2018-10-15 19:04:03.480112"]]
+  ↳ app/models/user.rb:35
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:35
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (0.4ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:6
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (4.91ms)
+Completed 202 Accepted in 567ms (Views: 7.1ms | ActiveRecord: 20.9ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 14:05:11 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+Started GET "/account" for 127.0.0.1 at 2018-10-15 14:07:00 -0500
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/AlejandroAguilar/.rvm/gems/ruby-2.3.3/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#account as */*
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:35
+  [1m[36mWeatherForecast Create (1.0ms)[0m  [1m[32mINSERT INTO "weather_forecasts" ("percip_probability", "percip_range", "temp_lo", "temp_hi", "avg_temp", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["percip_probability", 0.0], ["percip_range", "41 chance of rain at  5:00 pm45 chance of rain at  6:00 pm49 chance of rain at  7:00 pm47 chance of rain at  8:00 pm44 chance of rain at  9:00 pm"], ["temp_lo", 60], ["temp_hi", 63], ["avg_temp", 61], ["user_id", 2], ["created_at", "2018-10-15 19:07:01.364191"], ["updated_at", "2018-10-15 19:07:01.364191"]]
+  ↳ app/models/user.rb:35
+  [1m[35m (7.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:35
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (0.5ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:6
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (16.79ms)
+Completed 202 Accepted in 452ms (Views: 31.6ms | ActiveRecord: 28.6ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 15:15:05 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (5.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:35
+  [1m[36mWeatherForecast Create (35.4ms)[0m  [1m[32mINSERT INTO "weather_forecasts" ("percip_probability", "percip_range", "temp_lo", "temp_hi", "avg_temp", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["percip_probability", 0.0], ["percip_range", "47% chance of rain at  5:00 pm \n47% chance of rain at  6:00 pm \n50% chance of rain at  7:00 pm \n52% chance of rain at  8:00 pm \n43% chance of rain at  9:00 pm \n40% chance of rain at 10:00 pm \n"], ["temp_lo", 60], ["temp_hi", 63], ["avg_temp", 61], ["user_id", 2], ["created_at", "2018-10-15 20:15:18.234498"], ["updated_at", "2018-10-15 20:15:18.234498"]]
+  ↳ app/models/user.rb:35
+  [1m[35m (2.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:35
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (0.8ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:6
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (16.51ms)
+Completed 202 Accepted in 1076ms (Views: 20.7ms | ActiveRecord: 255.3ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 15:19:23 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (34.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:35
+  [1m[36mWeatherForecast Create (32.8ms)[0m  [1m[32mINSERT INTO "weather_forecasts" ("percip_probability", "percip_range", "temp_lo", "temp_hi", "avg_temp", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["percip_probability", 0.0], ["percip_range", ", 47% chance of rain at  5:00 pm, 47% chance of rain at  6:00 pm, 50% chance of rain at  7:00 pm, 52% chance of rain at  8:00 pm, 43% chance of rain at  9:00 pm, 40% chance of rain at 10:00 pm"], ["temp_lo", 60], ["temp_hi", 63], ["avg_temp", 61], ["user_id", 2], ["created_at", "2018-10-15 20:19:24.730231"], ["updated_at", "2018-10-15 20:19:24.730231"]]
+  ↳ app/models/user.rb:35
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:35
+  [1m[36mUser Load (2.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (0.9ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:6
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (15.25ms)
+Completed 202 Accepted in 1224ms (Views: 31.9ms | ActiveRecord: 389.2ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 15:21:56 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:39
+  [1m[36mWeatherForecast Create (6.5ms)[0m  [1m[32mINSERT INTO "weather_forecasts" ("percip_probability", "percip_range", "temp_lo", "temp_hi", "avg_temp", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["percip_probability", 0.0], ["percip_range", ", 47% chance of rain at  5:00 pm, 47% chance of rain at  6:00 pm, 50% chance of rain at  7:00 pm, 52% chance of rain at  8:00 pm, 43% chance of rain at  9:00 pm, 40% chance of rain at 10:00 pm"], ["temp_lo", 60], ["temp_hi", 63], ["avg_temp", 61], ["user_id", 2], ["created_at", "2018-10-15 20:21:57.593143"], ["updated_at", "2018-10-15 20:21:57.593143"]]
+  ↳ app/models/user.rb:39
+  [1m[35m (7.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:39
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (0.7ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:6
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (14.13ms)
+Completed 202 Accepted in 772ms (Views: 20.8ms | ActiveRecord: 74.6ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 15:22:40 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (24.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:39
+  [1m[36mWeatherForecast Create (2.6ms)[0m  [1m[32mINSERT INTO "weather_forecasts" ("percip_probability", "percip_range", "temp_lo", "temp_hi", "avg_temp", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["percip_probability", 0.0], ["percip_range", "40% chance of rain at 10:00 pm"], ["temp_lo", 60], ["temp_hi", 63], ["avg_temp", 61], ["user_id", 2], ["created_at", "2018-10-15 20:22:41.793067"], ["updated_at", "2018-10-15 20:22:41.793067"]]
+  ↳ app/models/user.rb:39
+  [1m[35m (3.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:39
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (0.5ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:6
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (11.42ms)
+Completed 202 Accepted in 682ms (Views: 17.7ms | ActiveRecord: 163.1ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 15:24:25 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:39
+  [1m[36mWeatherForecast Create (0.8ms)[0m  [1m[32mINSERT INTO "weather_forecasts" ("percip_probability", "percip_range", "temp_lo", "temp_hi", "avg_temp", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["percip_probability", 0.0], ["percip_range", ", 47% chance of rain at  5:00 pm, 47% chance of rain at  6:00 pm, 50% chance of rain at  7:00 pm, 52% chance of rain at  8:00 pm, 43% chance of rain at  9:00 pm, 40% chance of rain at 10:00 pm"], ["temp_lo", 60], ["temp_hi", 63], ["avg_temp", 61], ["user_id", 2], ["created_at", "2018-10-15 20:24:26.953410"], ["updated_at", "2018-10-15 20:24:26.953410"]]
+  ↳ app/models/user.rb:39
+  [1m[35m (8.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:39
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (0.6ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:6
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (13.58ms)
+Completed 202 Accepted in 895ms (Views: 17.7ms | ActiveRecord: 121.8ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 15:26:16 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (2.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:39
+  [1m[36mWeatherForecast Create (2.7ms)[0m  [1m[32mINSERT INTO "weather_forecasts" ("percip_probability", "percip_range", "temp_lo", "temp_hi", "avg_temp", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["percip_probability", 0.0], ["percip_range", ", 47% chance of rain at  5:00 pm, 47% chance of rain at  6:00 pm, 50% chance of rain at  7:00 pm, 52% chance of rain at  8:00 pm, 43% chance of rain at  9:00 pm, 40% chance of rain at 10:00 pm"], ["temp_lo", 60], ["temp_hi", 63], ["avg_temp", 61], ["user_id", 2], ["created_at", "2018-10-15 20:26:17.525980"], ["updated_at", "2018-10-15 20:26:17.525980"]]
+  ↳ app/models/user.rb:39
+  [1m[35m (1.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:39
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (0.5ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:6
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (12.58ms)
+Completed 202 Accepted in 648ms (Views: 18.8ms | ActiveRecord: 77.2ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 15:30:08 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (32.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:35
+  [1m[36mWeatherForecast Create (45.0ms)[0m  [1m[32mINSERT INTO "weather_forecasts" ("percip_probability", "percip_range", "temp_lo", "temp_hi", "avg_temp", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["percip_probability", 0.0], ["percip_range", ", 47% chance of rain at  6:00 pm, 53% chance of rain at  7:00 pm, 68% chance of rain at  8:00 pm, 43% chance of rain at  9:00 pm, 40% chance of rain at 10:00 pm"], ["temp_lo", 59], ["temp_hi", 61], ["avg_temp", 60], ["user_id", 2], ["created_at", "2018-10-15 20:30:12.077107"], ["updated_at", "2018-10-15 20:30:12.077107"]]
+  ↳ app/models/user.rb:35
+  [1m[35m (28.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:35
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (22.2ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:6
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (38.62ms)
+Completed 202 Accepted in 1897ms (Views: 24.8ms | ActiveRecord: 950.7ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 15:31:31 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (104.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[35m (19.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:35
+  [1m[36mWeatherForecast Create (146.0ms)[0m  [1m[32mINSERT INTO "weather_forecasts" ("percip_probability", "percip_range", "temp_lo", "temp_hi", "avg_temp", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["percip_probability", 0.0], ["percip_range", ", 47% chance of rain at  6:00 pm, 50% chance of rain at  7:00 pm, 52% chance of rain at  8:00 pm, 43% chance of rain at  9:00 pm, 40% chance of rain at 10:00 pm"], ["temp_lo", 60], ["temp_hi", 61], ["avg_temp", 60], ["user_id", 2], ["created_at", "2018-10-15 20:31:34.170931"], ["updated_at", "2018-10-15 20:31:34.170931"]]
+  ↳ app/models/user.rb:35
+  [1m[35m (6.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:35
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (14.1ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:6
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (57.84ms)
+Completed 202 Accepted in 920ms (Views: 51.3ms | ActiveRecord: 291.2ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 15:32:46 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (152.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[35m (48.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:35
+  [1m[36mWeatherForecast Create (50.1ms)[0m  [1m[32mINSERT INTO "weather_forecasts" ("percip_probability", "percip_range", "temp_lo", "temp_hi", "avg_temp", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["percip_probability", 0.0], ["percip_range", ", 47% chance of rain at  6:00 pm, 50% chance of rain at  7:00 pm, 52% chance of rain at  8:00 pm, 43% chance of rain at  9:00 pm, 40% chance of rain at 10:00 pm"], ["temp_lo", 60], ["temp_hi", 61], ["avg_temp", 60], ["user_id", 2], ["created_at", "2018-10-15 20:32:47.321711"], ["updated_at", "2018-10-15 20:32:47.321711"]]
+  ↳ app/models/user.rb:35
+  [1m[35m (2.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:35
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (30.4ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:6
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (58.22ms)
+Completed 202 Accepted in 851ms (Views: 40.3ms | ActiveRecord: 284.5ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 15:33:21 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (2.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[35m (14.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:35
+  [1m[36mWeatherForecast Create (14.0ms)[0m  [1m[32mINSERT INTO "weather_forecasts" ("percip_probability", "percip_range", "temp_lo", "temp_hi", "avg_temp", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["percip_probability", 0.0], ["percip_range", ", 47% chance of rain at  6:00 pm, 53% chance of rain at  7:00 pm, 68% chance of rain at  8:00 pm, 43% chance of rain at  9:00 pm, 40% chance of rain at 10:00 pm"], ["temp_lo", 59], ["temp_hi", 61], ["avg_temp", 60], ["user_id", 2], ["created_at", "2018-10-15 20:33:21.902813"], ["updated_at", "2018-10-15 20:33:21.902813"]]
+  ↳ app/models/user.rb:35
+  [1m[35m (16.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:35
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (1.1ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:6
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (24.63ms)
+Completed 202 Accepted in 624ms (Views: 43.7ms | ActiveRecord: 50.0ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 15:39:17 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (26.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:35
+  [1m[36mWeatherForecast Create (30.3ms)[0m  [1m[32mINSERT INTO "weather_forecasts" ("percip_probability", "percip_range", "temp_lo", "temp_hi", "avg_temp", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["percip_probability", 0.0], ["percip_range", ", 47% chance of rain at  6:00 pm, 53% chance of rain at  7:00 pm, 68% chance of rain at  8:00 pm, 43% chance of rain at  9:00 pm, 40% chance of rain at 10:00 pm"], ["temp_lo", 59], ["temp_hi", 61], ["avg_temp", 60], ["user_id", 2], ["created_at", "2018-10-15 20:39:18.751149"], ["updated_at", "2018-10-15 20:39:18.751149"]]
+  ↳ app/models/user.rb:35
+  [1m[35m (12.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:35
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (14.6ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/serializers/user_serializer.rb:5
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (77.57ms)
+Completed 202 Accepted in 1069ms (Views: 106.0ms | ActiveRecord: 138.8ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 15:41:38 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (54.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:35
+  [1m[36mWeatherForecast Create (47.8ms)[0m  [1m[32mINSERT INTO "weather_forecasts" ("percip_probability", "percip_range", "temp_lo", "temp_hi", "avg_temp", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["percip_probability", 0.0], ["percip_range", ", 47% chance of rain at  6:00 pm, 53% chance of rain at  7:00 pm, 68% chance of rain at  8:00 pm, 59% chance of rain at  9:00 pm, 52% chance of rain at 10:00 pm"], ["temp_lo", 59], ["temp_hi", 61], ["avg_temp", 60], ["user_id", 2], ["created_at", "2018-10-15 20:41:42.465307"], ["updated_at", "2018-10-15 20:41:42.465307"]]
+  ↳ app/models/user.rb:35
+  [1m[35m (4.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:35
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (5.3ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/serializers/user_serializer.rb:5
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (47.46ms)
+Completed 202 Accepted in 2199ms (Views: 60.1ms | ActiveRecord: 1052.9ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 15:44:01 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (394.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[35m (21.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:35
+  [1m[36mWeatherForecast Create (38.2ms)[0m  [1m[32mINSERT INTO "weather_forecasts" ("percip_probability", "percip_range", "temp_lo", "temp_hi", "avg_temp", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["percip_probability", 0.0], ["percip_range", ", 47% chance of rain at  6:00 pm, 53% chance of rain at  7:00 pm, 68% chance of rain at  8:00 pm, 59% chance of rain at  9:00 pm, 52% chance of rain at 10:00 pm"], ["temp_lo", 59], ["temp_hi", 61], ["avg_temp", 60], ["user_id", 2], ["created_at", "2018-10-15 20:44:02.052474"], ["updated_at", "2018-10-15 20:44:02.052474"]]
+  ↳ app/models/user.rb:35
+  [1m[35m (35.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:35
+  [1m[36mUser Load (12.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (6.7ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/serializers/user_serializer.rb:5
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (23.57ms)
+Completed 202 Accepted in 1070ms (Views: 28.5ms | ActiveRecord: 507.8ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 15:45:38 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (65.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:35
+  [1m[36mWeatherForecast Create (2.3ms)[0m  [1m[32mINSERT INTO "weather_forecasts" ("percip_probability", "percip_range", "temp_lo", "temp_hi", "avg_temp", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["percip_probability", 0.0], ["percip_range", ", 36% chance of rain at  3:00 pm, 42% chance of rain at  6:00 pm, 53% chance of rain at  7:00 pm, 68% chance of rain at  8:00 pm, 59% chance of rain at  9:00 pm, 52% chance of rain at 10:00 pm"], ["temp_lo", 59], ["temp_hi", 61], ["avg_temp", 60], ["user_id", 2], ["created_at", "2018-10-15 20:45:38.740081"], ["updated_at", "2018-10-15 20:45:38.740081"]]
+  ↳ app/models/user.rb:35
+  [1m[35m (9.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:35
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (0.9ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/serializers/user_serializer.rb:5
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (18.6ms)
+Completed 202 Accepted in 656ms (Views: 28.9ms | ActiveRecord: 79.1ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 15:47:44 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (234.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[35m (34.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:35
+  [1m[36mWeatherForecast Create (10.3ms)[0m  [1m[32mINSERT INTO "weather_forecasts" ("percip_probability", "percip_range", "temp_lo", "temp_hi", "avg_temp", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["percip_probability", 0.0], ["percip_range", ", 36% chance of rain at  3:00 pm, 42% chance of rain at  6:00 pm, 53% chance of rain at  7:00 pm, 68% chance of rain at  8:00 pm, 59% chance of rain at  9:00 pm, 52% chance of rain at 10:00 pm"], ["temp_lo", 59], ["temp_hi", 61], ["avg_temp", 60], ["user_id", 2], ["created_at", "2018-10-15 20:47:45.393887"], ["updated_at", "2018-10-15 20:47:45.393887"]]
+  ↳ app/models/user.rb:35
+  [1m[35m (2.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:35
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (36.1ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/serializers/user_serializer.rb:5
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (55.45ms)
+Completed 202 Accepted in 957ms (Views: 33.4ms | ActiveRecord: 318.2ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 15:48:32 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (3.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[35m (15.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:35
+  [1m[36mWeatherForecast Create (4.2ms)[0m  [1m[32mINSERT INTO "weather_forecasts" ("percip_probability", "percip_range", "temp_lo", "temp_hi", "avg_temp", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["percip_probability", 0.0], ["percip_range", ", 36% chance of rain at  3:00 pm, 42% chance of rain at  6:00 pm, 53% chance of rain at  7:00 pm, 68% chance of rain at  8:00 pm, 59% chance of rain at  9:00 pm, 52% chance of rain at 10:00 pm"], ["temp_lo", 59], ["temp_hi", 61], ["avg_temp", 60], ["user_id", 2], ["created_at", "2018-10-15 20:48:32.627513"], ["updated_at", "2018-10-15 20:48:32.627513"]]
+  ↳ app/models/user.rb:35
+  [1m[35m (77.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:35
+  [1m[36mUser Load (31.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (16.6ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/serializers/user_serializer.rb:5
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (36.77ms)
+Completed 202 Accepted in 687ms (Views: 44.3ms | ActiveRecord: 148.8ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 15:49:27 -0500
+Processing by UsersController#account as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.72ms)
+Filter chain halted as :authorized rendered or redirected
+Completed 401 Unauthorized in 175ms (Views: 156.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-10-15 15:49:34 -0500
+Processing by AuthController#create as */*
+  Parameters: {"email"=>"not_nil", "password"=>"[FILTERED]", "auth"=>{"email"=>"not_nil", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (2.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "not_nil"], ["LIMIT", 1]]
+  ↳ app/controllers/auth_controller.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.13ms)
+Completed 401 Unauthorized in 159ms (Views: 0.9ms | ActiveRecord: 2.5ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-10-15 15:49:44 -0500
+Processing by AuthController#create as */*
+  Parameters: {"email"=>"not_nil", "password"=>"[FILTERED]", "auth"=>{"email"=>"not_nil", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "not_nil"], ["LIMIT", 1]]
+  ↳ app/controllers/auth_controller.rb:5
+[active_model_serializers]   [1m[36mWeatherForecast Load (0.9ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/serializers/user_serializer.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (32.33ms)
+Completed 202 Accepted in 137ms (Views: 37.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 15:55:27 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (33.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:36
+  [1m[36mWeatherForecast Create (30.1ms)[0m  [1m[32mINSERT INTO "weather_forecasts" ("percip_probability", "percip_range", "temp_lo", "temp_hi", "avg_temp", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["percip_probability", 0.0], ["percip_range", "[\"36% chance of rain at  3:00 pm\", \"42% chance of rain at  6:00 pm\", \"53% chance of rain at  7:00 pm\", \"68% chance of rain at  8:00 pm\", \"59% chance of rain at  9:00 pm\", \"52% chance of rain at 10:00 pm\"]"], ["temp_lo", 59], ["temp_hi", 61], ["avg_temp", 60], ["user_id", 2], ["created_at", "2018-10-15 20:55:28.749461"], ["updated_at", "2018-10-15 20:55:28.749461"]]
+  ↳ app/models/user.rb:36
+  [1m[35m (3.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:36
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (2.9ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/serializers/user_serializer.rb:5
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (14.23ms)
+Completed 202 Accepted in 656ms (Views: 25.8ms | ActiveRecord: 158.6ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 15:55:52 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (3.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:36
+  [1m[36mWeatherForecast Create (0.8ms)[0m  [1m[32mINSERT INTO "weather_forecasts" ("percip_probability", "percip_range", "temp_lo", "temp_hi", "avg_temp", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["percip_probability", 0.0], ["percip_range", "36% chance of rain at  3:00 pm, 42% chance of rain at  6:00 pm, 53% chance of rain at  7:00 pm, 68% chance of rain at  8:00 pm, 59% chance of rain at  9:00 pm, 52% chance of rain at 10:00 pm"], ["temp_lo", 59], ["temp_hi", 61], ["avg_temp", 60], ["user_id", 2], ["created_at", "2018-10-15 20:55:53.776725"], ["updated_at", "2018-10-15 20:55:53.776725"]]
+  ↳ app/models/user.rb:36
+  [1m[35m (9.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:36
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (2.6ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/serializers/user_serializer.rb:5
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (17.22ms)
+Completed 202 Accepted in 879ms (Views: 23.1ms | ActiveRecord: 65.2ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 16:52:35 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (43.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mWeatherForecast Load (18.6ms)[0m  [1m[34mSELECT  "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 11]]
+  ↳ app/controllers/users_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mWeatherForecast Load (1.7ms)[0m  [1m[34mSELECT  "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1 ORDER BY "weather_forecasts"."id" DESC LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE WeatherForecast Load (0.0ms)[0m  [1m[34mSELECT  "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1 ORDER BY "weather_forecasts"."id" DESC LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[36mCACHE User Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE WeatherForecast Load (0.1ms)[0m  [1m[34mSELECT  "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1 ORDER BY "weather_forecasts"."id" DESC LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[36mCACHE User Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE WeatherForecast Load (0.1ms)[0m  [1m[34mSELECT  "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1 ORDER BY "weather_forecasts"."id" DESC LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[36mCACHE User Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE WeatherForecast Load (0.1ms)[0m  [1m[34mSELECT  "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1 ORDER BY "weather_forecasts"."id" DESC LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[36mCACHE User Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE WeatherForecast Load (0.0ms)[0m  [1m[34mSELECT  "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1 ORDER BY "weather_forecasts"."id" DESC LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[36mCACHE User Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE WeatherForecast Load (0.0ms)[0m  [1m[34mSELECT  "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1 ORDER BY "weather_forecasts"."id" DESC LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[36mCACHE User Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE WeatherForecast Load (0.1ms)[0m  [1m[34mSELECT  "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1 ORDER BY "weather_forecasts"."id" DESC LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[36mCACHE User Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE WeatherForecast Load (0.0ms)[0m  [1m[34mSELECT  "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1 ORDER BY "weather_forecasts"."id" DESC LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+Started GET "/users" for 127.0.0.1 at 2018-10-15 17:17:03 -0500
+  [1m[36mCACHE WeatherForecast Load (0.0ms)[0m  [1m[34mSELECT  "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1 ORDER BY "weather_forecasts"."id" DESC LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[36mCACHE User Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE WeatherForecast Load (0.1ms)[0m  [1m[34mSELECT  "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1 ORDER BY "weather_forecasts"."id" DESC LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[36mCACHE User Load (3.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE WeatherForecast Load (0.1ms)[0m  [1m[34mSELECT  "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1 ORDER BY "weather_forecasts"."id" DESC LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[36mCACHE User Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE WeatherForecast Load (0.1ms)[0m  [1m[34mSELECT  "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1 ORDER BY "weather_forecasts"."id" DESC LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[36mCACHE User Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE WeatherForecast Load (0.1ms)[0m  [1m[34mSELECT  "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1 ORDER BY "weather_forecasts"."id" DESC LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[36mCACHE User Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE WeatherForecast Load (0.1ms)[0m  [1m[34mSELECT  "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1 ORDER BY "weather_forecasts"."id" DESC LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[36mCACHE User Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE WeatherForecast Load (0.2ms)[0m  [1m[34mSELECT  "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1 ORDER BY "weather_forecasts"."id" DESC LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[36mCACHE User Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE WeatherForecast Load (0.1ms)[0m  [1m[34mSELECT  "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1 ORDER BY "weather_forecasts"."id" DESC LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[36mCACHE User Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[35m (372.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:36
+  [1m[36mWeatherForecast Create (1318.8ms)[0m  [1m[32mINSERT INTO "weather_forecasts" ("percip_probability", "percip_range", "temp_lo", "temp_hi", "avg_temp", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["percip_probability", 0.0], ["percip_range", "53% chance of rain at  7:00 pm, 45% chance of rain at  8:00 pm, 62% chance of rain at  9:00 pm, 54% chance of rain at 10:00 pm, 58% chance of rain at 11:00 pm, 28% chance of rain at 12:00 am, 24% chance of rain at  1:00 am, 23% chance of rain at  2:00 am"], ["temp_lo", 58], ["temp_hi", 64], ["avg_temp", 61], ["user_id", 2], ["created_at", "2018-10-16 00:18:14.792369"], ["updated_at", "2018-10-16 00:18:14.792369"]]
+  ↳ app/models/user.rb:36
+  [1m[35m (29.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:36
+  [1m[36mUser Load (56.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (3.6ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/serializers/user_serializer.rb:5
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (181.9ms)
+Completed 202 Accepted in 8737691ms (Views: 306.0ms | ActiveRecord: 2139.7ms)
+
+
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:24
+[active_model_serializers]   [1m[36mWeatherForecast Load (0.5ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 1]]
+[active_model_serializers]   ↳ app/serializers/user_serializer.rb:5
+[active_model_serializers]   [1m[36mWeatherForecast Load (0.7ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/serializers/user_serializer.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (68.36ms)
+Completed 200 OK in 697ms (Views: 112.7ms | ActiveRecord: 562.0ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 19:18:29 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (114.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mWeatherForecast Load (506.2ms)[0m  [1m[34mSELECT  "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1 ORDER BY "weather_forecasts"."id" DESC LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (2.3ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/serializers/user_serializer.rb:5
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (47.97ms)
+Completed 202 Accepted in 798ms (Views: 62.7ms | ActiveRecord: 623.5ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 19:18:48 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (3.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mWeatherForecast Load (25.7ms)[0m  [1m[34mSELECT  "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1 ORDER BY "weather_forecasts"."id" DESC LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (7.5ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/serializers/user_serializer.rb:5
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (26.38ms)
+Completed 202 Accepted in 281ms (Views: 27.3ms | ActiveRecord: 37.7ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 19:30:00 -0500
+Processing by UsersController#account as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (5.19ms)
+Filter chain halted as :authorized rendered or redirected
+Completed 401 Unauthorized in 30ms (Views: 27.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 19:30:10 -0500
+Processing by UsersController#account as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.03ms)
+Filter chain halted as :authorized rendered or redirected
+Completed 401 Unauthorized in 46ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 19:30:11 -0500
+Processing by UsersController#account as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.28ms)
+Filter chain halted as :authorized rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2018-10-15 19:30:22 -0500
+Processing by AuthController#create as */*
+  Parameters: {"email"=>"not_nil", "password"=>"[FILTERED]", "auth"=>{"email"=>"not_nil", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (5.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "not_nil"], ["LIMIT", 1]]
+  ↳ app/controllers/auth_controller.rb:5
+[active_model_serializers]   [1m[36mWeatherForecast Load (0.7ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/serializers/user_serializer.rb:5
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (64.31ms)
+Completed 202 Accepted in 713ms (Views: 61.7ms | ActiveRecord: 288.4ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 20:26:19 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (123.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mWeatherForecast Load (154.8ms)[0m  [1m[34mSELECT  "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1 ORDER BY "weather_forecasts"."id" DESC LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mCACHE User Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (3.7ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/serializers/user_serializer.rb:5
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (24.2ms)
+Completed 202 Accepted in 762ms (Views: 38.7ms | ActiveRecord: 281.9ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 20:40:43 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (20.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mUser Load (14.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[36mCACHE User Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[35m (2.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ (byebug):1
+  [1m[36mUser Exists (9.7ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 AND "users"."id" != $2 LIMIT $3[0m  [["email", "not_nil"], ["id", 2], ["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[36mUser Update (38.3ms)[0m  [1m[33mUPDATE "users" SET "zip_code" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["zip_code", 77019], ["updated_at", "2018-10-16 01:41:54.058776"], ["id", 2]]
+  ↳ (byebug):1
+  [1m[35m (24.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ (byebug):1
+  [1m[36mUser Load (11.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ (byebug):1
+  [1m[36mUser Load (17.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+Started GET "/account" for 127.0.0.1 at 2018-10-15 21:03:45 -0500
+  [1m[35m (4.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/AlejandroAguilar/.rvm/gems/ruby-2.3.3/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#account as */*
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mUser Load (68.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mUser Load (495.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mWeatherForecast Load (1.4ms)[0m  [1m[34mSELECT  "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1 ORDER BY "weather_forecasts"."id" DESC LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:6
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (0.5ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/serializers/user_serializer.rb:5
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (19.67ms)
+Completed 202 Accepted in 619751ms (Views: 58.5ms | ActiveRecord: 731.1ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 21:14:16 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mWeatherForecast Load (2.2ms)[0m  [1m[34mSELECT  "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1 ORDER BY "weather_forecasts"."id" DESC LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (0.7ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/serializers/user_serializer.rb:5
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (14.39ms)
+Completed 202 Accepted in 54312ms (Views: 24.2ms | ActiveRecord: 54.0ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 21:15:26 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+Started GET "/account" for 127.0.0.1 at 2018-10-15 21:53:57 -0500
+  [1m[35m (6.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/AlejandroAguilar/.rvm/gems/ruby-2.3.3/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#account as */*
+  [1m[36mUser Load (19.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mUser Load (7.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mWeatherForecast Load (1.1ms)[0m  [1m[34mSELECT  "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1 ORDER BY "weather_forecasts"."id" DESC LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:6
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (0.4ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/serializers/user_serializer.rb:5
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (6.21ms)
+Completed 202 Accepted in 551ms (Views: 30.1ms | ActiveRecord: 66.7ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 21:56:25 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (10.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mWeatherForecast Load (3.8ms)[0m  [1m[34mSELECT  "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1 ORDER BY "weather_forecasts"."id" DESC LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (0.8ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/serializers/user_serializer.rb:5
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (15.13ms)
+Completed 202 Accepted in 231459ms (Views: 26.8ms | ActiveRecord: 63.6ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 22:01:11 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (7.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mWeatherForecast Load (14.9ms)[0m  [1m[34mSELECT  "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1 ORDER BY "weather_forecasts"."id" DESC LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (0.7ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/serializers/user_serializer.rb:5
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (12.98ms)
+Completed 202 Accepted in 547ms (Views: 21.7ms | ActiveRecord: 113.5ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 22:02:16 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (31.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mWeatherForecast Load (1.5ms)[0m  [1m[34mSELECT  "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1 ORDER BY "weather_forecasts"."id" DESC LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (6.2ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/serializers/user_serializer.rb:5
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (25.67ms)
+Completed 202 Accepted in 145ms (Views: 30.8ms | ActiveRecord: 39.3ms)
+
+
+Started GET "/account" for 127.0.0.1 at 2018-10-15 22:03:32 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (11.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mWeatherForecast Load (2.6ms)[0m  [1m[34mSELECT  "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1 ORDER BY "weather_forecasts"."id" DESC LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+Completed 500 Internal Server Error in 650ms (ActiveRecord: 181.1ms)
+
+
+  
+NameError (uninitialized class variable @@api_url in #<Class:0x007fb5a11adac0>):
+  
+app/models/user.rb:20:in `getForecast'
+app/controllers/users_controller.rb:8:in `account'
+Started GET "/account" for 127.0.0.1 at 2018-10-15 22:04:13 -0500
+Processing by UsersController#account as */*
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mWeatherForecast Load (0.8ms)[0m  [1m[34mSELECT  "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1 ORDER BY "weather_forecasts"."id" DESC LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:46
+  [1m[36mWeatherForecast Create (36.8ms)[0m  [1m[32mINSERT INTO "weather_forecasts" ("percip_probability", "percip_range", "temp_lo", "temp_hi", "avg_temp", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["percip_probability", 31.0], ["percip_range", "100% chance of rain at 10:00 pm, 23% chance of rain at 11:00 pm, 23% chance of rain at 12:00 am, 27% chance of rain at  1:00 am, 23% chance of rain at  2:00 am, 19% chance of rain at  3:00 am, 16% chance of rain at  4:00 am, 15% chance of rain at  5:00 am"], ["temp_lo", 57], ["temp_hi", 63], ["avg_temp", 61], ["user_id", 2], ["created_at", "2018-10-16 03:04:24.469237"], ["updated_at", "2018-10-16 03:04:24.469237"]]
+  ↳ app/models/user.rb:46
+  [1m[35m (3.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:46
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:31
+[active_model_serializers]   [1m[36mWeatherForecast Load (0.5ms)[0m  [1m[34mSELECT "weather_forecasts".* FROM "weather_forecasts" WHERE "weather_forecasts"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/serializers/user_serializer.rb:5
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (6.51ms)
+Completed 202 Accepted in 10479ms (Views: 11.0ms | ActiveRecord: 350.1ms)
+
+
