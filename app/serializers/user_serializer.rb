@@ -1,5 +1,5 @@
 class UserSerializer < ActiveModel::Serializer
-  attributes :id, :email, :zip_code, :weather_forecast, :clothing_suggestion
+  attributes :id, :zip_code, :weather_forecast, :clothing_suggestion, :first_name, :temp_units
 
   def weather_forecast
     self.object.weather_forecasts[-1]

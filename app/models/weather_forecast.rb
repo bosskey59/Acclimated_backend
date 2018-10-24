@@ -58,7 +58,7 @@ class WeatherForecast < ApplicationRecord
     @temp = self.temp_lo * @user_multiplier
 
     #jacket thresholds
-    if (accessories.include?("boots") || @temp <= 50 )
+    if (accessories.include?("snow_boots") || @temp <= 50 )
       @items.push("jacket")
     #sweater thresholds
     elsif @temp > 50 && @temp <= 65

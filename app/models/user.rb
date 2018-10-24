@@ -23,7 +23,7 @@ class User < ApplicationRecord
     @temps=[]
     @precips =[]
     @precips_summary=[]
-    @summary= weather["currently"]["summary"]
+    @summary= weather["currently"]["icon"]
     @summary_obj={}
     8.times do
       @temps.push(weather["hourly"]["data"][i]["temperature"])
