@@ -5,7 +5,8 @@ class User < ApplicationRecord
   has_many :weather_forecasts
 
   def geocode
-    @map_quest_url ="http://www.mapquestapi.com/geocoding/v1/address?key=#{ENV["map_quest_key"]}&location=#{self.zip_code}"
+    @zip=self.zip_code.to_s.rjust(5, "0")
+    @map_quest_url ="http://www.mapquestapi.com/geocoding/v1/address?key=#{ENV["map_quest_key"]}&location=#{@zip}"
     map_data = RestClient.get(@map_quest_url)
     map_info = JSON.parse(map_data)
     return map_info["results"][0]["locations"][0]["latLng"].values.join(",")
